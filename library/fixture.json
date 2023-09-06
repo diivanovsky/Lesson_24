@@ -1,0 +1,40 @@
+[
+{
+    "model": "catalog.country",
+    "pk": 2,
+    "fields": {
+        "name": "England"
+    }
+},
+{
+    "model": "catalog.country",
+    "pk": 3,
+    "fields": {
+        "name": "Belarus"
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 1,
+    "fields": {
+        "first_name": "Константин",
+        "last_name": "Мицкевич",
+        "pseudonym": "Якуб Колас",
+        "date_of_birth": "1882-10-22",
+        "date_of_death": "1956-08-13",
+        "country": 3
+    }
+},
+{
+    "model": "catalog.author",
+    "pk": 2,
+    "fields": {
+        "first_name": "Joanne",
+        "last_name": "Rowling",
+        "pseudonym": "J. K. Rowling",
+        "date_of_birth": "1965-07-31",
+        "date_of_death": null,
+        "country": 2
+    }
+}
+]
